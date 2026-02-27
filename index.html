@@ -3,69 +3,157 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>António Crespo | CV Online</title>
+  <title>António Pedro Mira Crespo | CV Online</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <main class="container">
 
- <header class="header">
-  <div class="header-top">
-    <div>
-      <h1>António Crespo</h1>
-      <p class="role">Gestor de Projetos Digitais & Integração de Sistemas</p>
-      <p class="meta">
-        Lisboa, Portugal ·
-        <a href="mailto:apamacrespo@gmail.com">Email</a> ·
-        <a href="https://www.linkedin.com/in/apcrespo" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
-        <a href="https://github.com/ToniCrespo87" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </p>
-    </div>
+    <!-- Header -->
+    <header class="header">
+      <div class="header-top">
+        <div>
+          <h1>António Crespo</h1>
+          <p class="role">Gestor de Projetos Digitais & Integração de Sistemas</p>
 
-    <div class="header-actions">
-      <a class="btn" href="./CV_Antonio_Crespo.pdf" download>⬇️ Download PDF</a>
-    </div>
-  </div>
-</header>
+          <p class="meta">
+            Lisboa, Portugal ·
+            <a href="mailto:apamacrespo@gmail.com">Email</a> ·
+            <a href="https://www.linkedin.com/in/apcrespo" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+            <a href="https://github.com/ToniCrespo87" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </p>
+        </div>
 
+        <div class="header-actions">
+          <a class="btn" href="./CV_Antonio_Crespo.pdf" download>⬇️ Download PDF</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Resumo -->
     <section>
       <h2>🧠 Resumo</h2>
       <p>
         Profissional focado em transformação digital, integração de sistemas empresariais e analytics,
-        com experiência na construção de soluções baseadas em dados (Power BI/Fabric) e automação de
-        processos (Power Automate), ligando equipas técnicas e operacionais para otimização e suporte à decisão.
+        com experiência na construção de soluções baseadas em dados (Power BI/Fabric) e automatização de processos
+        (Power Automate), ligando equipas técnicas e operacionais para otimização e suporte à decisão.
       </p>
     </section>
 
+    <!-- Projetos -->
     <section>
       <h2>🚀 Projetos relevantes e tecnologia usada</h2>
-      <ul>
-        <li>🤖 <strong>Machine Learning</strong> – Modelos supervisionados e ensemble com validação cruzada e ROC-AUC/F1. (Python, Scikit-learn)</li>
-        <li>📊 <strong>Churn Prediction</strong> – Pipeline end-to-end com feature engineering, tuning e SHAP. (Python, XGBoost, SHAP)</li>
-        <li>🎬 <strong>MovieLens 33M</strong> – Análise e otimização de 33M registos em arquitetura escalável. (DuckDB, Polars, AWS S3)</li>
-        <li>⚡ <strong>Apache Spark</strong> – Processamento distribuído e data pipelines em Big Data. (PySpark, Databricks)</li>
-        <li>🗄️ <strong>SQL Analytics</strong> – Queries avançadas e modelação relacional para análise transacional. (SQL, MySQL/SQL Server)</li>
-        <li>📈 <strong>Power BI & Fabric</strong> – Dashboards executivos com DAX e automação em Data Lake empresarial. (Microsoft Fabric, Power BI)</li>
-        <li>📐 <strong>Estatística Aplicada</strong> – Testes de hipóteses, regressão e inferência para suporte à decisão. (R, Python)</li>
-      </ul>
+
+      <div class="cards">
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">🤖 Machine Learning</div>
+          <div class="card-desc">Modelos supervisionados/ensemble com validação cruzada e ROC-AUC/F1.</div>
+          <div class="card-tags">Python · Scikit-learn</div>
+        </a>
+
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">📊 Churn Prediction</div>
+          <div class="card-desc">Pipeline end-to-end com feature engineering, tuning e SHAP.</div>
+          <div class="card-tags">Python · XGBoost · SHAP</div>
+        </a>
+
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">🎬 MovieLens 33M</div>
+          <div class="card-desc">Análise e otimização de 33M registos em arquitetura escalável.</div>
+          <div class="card-tags">DuckDB · Polars · AWS S3</div>
+        </a>
+
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">⚡ Apache Spark</div>
+          <div class="card-desc">Processamento distribuído e data pipelines em Big Data.</div>
+          <div class="card-tags">PySpark · Databricks</div>
+        </a>
+
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">🗄️ SQL Analytics (Auction/Lojas)</div>
+          <div class="card-desc">Queries avançadas e modelação relacional para análise transacional.</div>
+          <div class="card-tags">SQL · MySQL · SQL Server</div>
+        </a>
+
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">📈 Power BI & Fabric</div>
+          <div class="card-desc">Dashboards com DAX e automação de fluxos em Data Lake empresarial.</div>
+          <div class="card-tags">Microsoft Fabric · Power BI · DAX</div>
+        </a>
+
+        <a class="card" href="#" target="_blank" rel="noopener noreferrer">
+          <div class="card-title">📐 Estatística Aplicada</div>
+          <div class="card-desc">Testes de hipóteses, regressão e inferência para suporte à decisão.</div>
+          <div class="card-tags">R · Python</div>
+        </a>
+      </div>
+
+      <p class="hint">💡 Podes trocar os <code>href="#"</code> por links para repos, PDFs ou notebooks.</p>
     </section>
 
+    <!-- Experiência (últimos 3 cargos) -->
     <section>
       <h2>💼 Experiência profissional</h2>
 
       <article class="job">
-        <h3>Gestor de Projetos Digitais – Sinal Mais</h3>
-        <p class="date">Março 2021 — Presente</p>
+        <div class="job-top">
+          <h3>Gestor de Projetos Digitais – Sinal Mais (Lisboa)</h3>
+          <span class="date">Mar 2021 — Presente</span>
+        </div>
         <ul>
-          <li>Ponte entre Sinal Mais e fornecedores tecnológicos; planeamento e execução de projetos.</li>
-          <li>Integração e sincronização de dados entre plataformas operacionais e SAP.</li>
-          <li>Desenvolvimento de dashboards e modelos de KPI em Power BI (DAX) e implementação de Data Lake em Microsoft Fabric.</li>
-          <li>Automatização de fluxos com Power Automate e suporte às equipas operacionais.</li>
+          <li>Ponte entre equipas internas e fornecedores tecnológicos; planeamento, calendarização e execução de projetos.</li>
+          <li>Integração e sincronização de dados entre plataformas operacionais e SAP, reforçando consistência e governação.</li>
+          <li>Dashboards e modelos KPI em Power BI (DAX) e implementação de Data Lake em Microsoft Fabric.</li>
+          <li>Automatização de fluxos com Power Automate e suporte/formação às equipas operacionais.</li>
           <li>Controlo e otimização de custos das plataformas digitais.</li>
         </ul>
       </article>
 
+      <article class="job">
+        <div class="job-top">
+          <h3>Gestor Operacional – Sinal Mais / Sociedade Central de Cervejas (Heineken) (Lisboa)</h3>
+          <span class="date">Mar 2019 — Mar 2021</span>
+        </div>
+        <ul>
+          <li>Gestão operacional de serviços de Facility Management em ambiente industrial (fábricas e armazéns).</li>
+          <li>Melhoria contínua (Kaizen) e reporting de KPI; gestão de plataforma de manutenção/qualidade (Nextbitt).</li>
+          <li>Formação da equipa residente; apoio a propostas, faturação interna e planeamento.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <div class="job-top">
+          <h3>Técnico de Segurança Alimentar e Higiene – Catefru, MARL (Lisboa)</h3>
+          <span class="date">Jul 2018 — Mar 2019</span>
+        </div>
+        <ul>
+          <li>Controlo de qualidade de produtos e matérias-primas; monitorização de PCC (temperatura, peso, rotulagem, pH).</li>
+          <li>Gestão de controlo de pragas; controlo operacional e formação interna.</li>
+          <li>Apoio à faturação e gestão de inventário em SAP PP.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Formação -->
+    <section>
+      <h2>🎓 Formação académica</h2>
+      <ul>
+        <li><strong>Pós-Graduação em Enterprise Data Science & Analytics</strong> – NOVA IMS (2025–2026)</li>
+        <li><strong>Mestrado em Segurança Alimentar</strong> – Faculdade de Medicina Veterinária, Universidade de Lisboa (2009–2013)</li>
+        <li><strong>Licenciatura em Engenharia Zootécnica</strong> – ESAS, Instituto Politécnico de Santarém (2006–2009)</li>
+      </ul>
+    </section>
+
+    <!-- Idiomas -->
+    <section>
+      <h2>🌍 Idiomas</h2>
+      <ul>
+        <li><strong>Português:</strong> Nativo</li>
+        <li><strong>Inglês:</strong> C1 (IELTS 7)</li>
+        <li><strong>Espanhol:</strong> B1</li>
+        <li><strong>Francês:</strong> Intermédio</li>
+      </ul>
     </section>
 
   </main>
